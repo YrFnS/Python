@@ -2,7 +2,14 @@
 
 import os
 
+# Effective group ID
 print(os.getegid())
+
+# Effective user ID
 print(os.geteuid())
+
+# Real group ID
 print(os.getgid())
+
+# Supplemental group IDs
 print(os.getgroups())
